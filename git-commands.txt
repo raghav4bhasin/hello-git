@@ -1,0 +1,23 @@
+#GIT COMMANDS
+
+1. git config
+    Sets configuratio values for your username.
+
+Example:
+    git config --global user.name "MyUserName"
+    git config --global user.email "myEmail@domain.com"
+
+2. git init
+    Initializes a git Repository.
+
+3.git clone
+    Creates a git Repository copy from a remote source. Also adds the original location as a remote so you can fetch from it again and push to it if you have permissions.
+
+Example:
+    git clone git@github.com:user/test.git
+
+4. git add
+    Adds files changes in your working directory to your index.
+
+5. git commit
+    Takes all of the changes written in the index, Creates a new commit object pointing to it and sets the branch to point to that new commit.
